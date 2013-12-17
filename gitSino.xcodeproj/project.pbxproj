@@ -19,6 +19,7 @@
 		816B2D661861085D0073E277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816B2D4E1861085D0073E277 /* UIKit.framework */; };
 		816B2D6E1861085D0073E277 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 816B2D6C1861085D0073E277 /* InfoPlist.strings */; };
 		816B2D701861085D0073E277 /* gitSinoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816B2D6F1861085D0073E277 /* gitSinoTests.m */; };
+		816B2D7B186108B00073E277 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 816B2D7A186108B00073E277 /* Boss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		816B2D6B1861085D0073E277 /* gitSinoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitSinoTests-Info.plist"; sourceTree = "<group>"; };
 		816B2D6D1861085D0073E277 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		816B2D6F1861085D0073E277 /* gitSinoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitSinoTests.m; sourceTree = "<group>"; };
+		816B2D79186108B00073E277 /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		816B2D7A186108B00073E277 /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		816B2D3E1861085D0073E277 = {
 			isa = PBXGroup;
 			children = (
+				816B2D79186108B00073E277 /* Boss.h */,
+				816B2D7A186108B00073E277 /* Boss.m */,
 				816B2D501861085D0073E277 /* gitSino */,
 				816B2D691861085D0073E277 /* gitSinoTests */,
 				816B2D491861085D0073E277 /* Frameworks */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816B2D7B186108B00073E277 /* Boss.m in Sources */,
 				816B2D5B1861085D0073E277 /* AppDelegate.m in Sources */,
 				816B2D571861085D0073E277 /* main.m in Sources */,
 			);
